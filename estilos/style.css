@@ -29,8 +29,6 @@ section#telefone {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
-
     height: 627px;
     width: 311px;
     background: url('../imagens/frame-iphone.png') no-repeat;
@@ -61,4 +59,20 @@ section#redes-sociais img:hover {
     transform: translate(-3px, -3px);
     box-shadow: 5px 5px 10px black;
     transition: transform .3s;
+}
+
+@media screen and (max-width: 768px) {
+    section#redes-sociais img {
+        width: 45px;
+        margin: 9px;
+        
+    }
+
+    section#redes-sociais img:hover {
+        border: 2px solid rgba(255, 255, 255, 0.63);
+        transform: translate(-3px, -3px);
+        box-shadow: 5px 5px 10px black;
+        transition: transform .3s;
+    }
+    
 }
